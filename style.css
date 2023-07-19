@@ -163,10 +163,47 @@ nav {
     margin-top: 70px;
 }
 
+
 .video-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; 
+}
+
+
+.img-container{
+    position: relative;
+    display: inline-block;
+}
+
+.play-btn{
+    border: 2px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF42A5;
+    font-size: 24px;
+    cursor: pointer;
+}
+.play-btn span:hover {
+    color: blue;
+  }
+.play-btn span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF42A5;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .funny-img {
