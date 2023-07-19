@@ -261,7 +261,8 @@ footer {
 }
 
 .footer-title img {
-    width: 80px;
+    width: 100px;
+    height: 50px;
 }
 
 .our-facilities {
@@ -273,6 +274,7 @@ footer {
     justify-content: center;
     gap: 60px;
     padding: 50px 0;
+    cursor: pointer;
 }
 
 .social-media-icon {
@@ -281,11 +283,15 @@ footer {
     gap: 30px;
     padding: 10px 0 50px 0;
 }
+.social-media-icon img:hover{
+    background-color: blue;
+   }
 
 .social-media-icon img {
     width: 40px;
     color: #FFF;
     background-color: #0B0223;
+    cursor: pointer;
 }
 
 .website-features {
@@ -296,8 +302,11 @@ footer {
     font-family: Work Sans;
     font-size: 1rem;
     font-weight: 500;
-
+    cursor: pointer;
 }
+/* .website-features:hover{
+    color: blue;
+} */
 .copyright-symbol{
     color: rgba(255, 255, 255, 0.60);
     font-family: Work Sans;
@@ -306,6 +315,10 @@ footer {
     text-align: center;
     padding-bottom: 100px;
 }
+
+
+
+
 /* Media query for mobile large device */
 @media screen and (max-width: 576px) {
 
@@ -450,7 +463,32 @@ footer {
         width: 30px;
         height: 30px;
     }
+  
+    
+    footer div{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .our-facilities {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .social-media-icon {
+        flex-wrap: wrap;
+      gap: 50px;
+    }
+    .website-features{
+        flex-wrap: wrap;
+        gap: 15px;
+       
+    }
+    .copyright-symbol{
+        width: 300px;
+        margin: 0 auto;
+        padding: 50px 0 100px 0;
+    }
 }
+
 
 /* media query for tablet or medium device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -517,4 +555,29 @@ footer {
         width: 500px;
         text-align: center;
     }
+
+
+    footer div{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .our-facilities {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .social-media-icon {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .website-features{
+        flex-wrap: wrap;
+        gap: 15px;
+       
+    }
+    .copyright-symbol{
+        width: 350px;
+        margin: 0 auto;
+        padding: 50px 0 100px 0;
+    }
+
 }
