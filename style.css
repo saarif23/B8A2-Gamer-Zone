@@ -22,7 +22,7 @@
     font-family: Work Sans;
     font-size: 1.2rem;
     font-weight: 600;
-    }
+}
 
 .secondary-btn {
     border-radius: 48px;
@@ -34,7 +34,7 @@
     font-weight: 600;
     color: #FFF;
     margin-left: 20px;
-    
+
 }
 
 .title {
@@ -228,9 +228,10 @@ nav {
 }
 
 .click-container:hover {
-    border: 2px solid #884245;
+    border: 2px solid #4EC5F7;
     cursor: pointer;
     border-radius: 50px;
+    background-color: lightgray;
 
 
 }
@@ -242,7 +243,9 @@ nav {
     font-weight: 600;
     margin-bottom: 20px;
 }
-
+.game-name:hover{
+    color: blue;
+}
 .game-icon {
     width: 50px;
     height: 50px;
@@ -291,6 +294,9 @@ footer {
     padding: 10px 0;
     cursor: pointer;
 }
+.our-facilities p:hover{
+    color: blue;
+}
 
 .social-media-icon {
     display: flex;
@@ -321,9 +327,9 @@ footer {
     cursor: pointer;
 }
 
-/* .website-features:hover{
+.website-features p:hover{
     color: blue;
-} */
+}
 .copyright-symbol {
     color: rgba(255, 255, 255, 0.60);
     font-family: Work Sans;
@@ -344,7 +350,7 @@ footer {
         font-family: Work Sans;
         font-size: 2rem;
         font-weight: 600;
-        margin: 20px ;
+        margin: 20px;
         padding: 20px;
 
 
@@ -487,9 +493,10 @@ footer {
         width: 300px;
         margin: 0 auto;
     }
-    .footer-title{
+
+    .footer-title {
         gap: 0px;
-       
+
     }
 
     .our-facilities {
