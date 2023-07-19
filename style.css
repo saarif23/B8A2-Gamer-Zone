@@ -162,7 +162,7 @@
     .banner-bg {
         position: absolute;
         top: 0;
-        width: 100%;
+        width: 90%;
         height: 400px;
         margin-left: 20px;
     }
@@ -204,7 +204,29 @@
   /* media query for tablet or medium device */
   @media screen and (min-width: 576px) and (max-width: 992px) {
       nav {
-          flex-direction: column-reverse;
+          flex-direction: column;
       }
+      .banner-container {
+        height: 500px;
+        position: relative;
+        padding: 50px;
+        margin: 100px 0;
+       flex-direction: column;
+        gap: 50px;
+        align-items: center;
+      
+        box-shadow: none;
+    }
+  
+    .banner-bg {
+        position: absolute;
+        left: 50px;
+        top: 0;
+        height: 400px;
+        width: 100%;
+    }
+  
+    #bnr-img {
+        width: 500px;
 
   }
