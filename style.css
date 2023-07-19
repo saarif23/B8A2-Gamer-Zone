@@ -55,7 +55,7 @@
     padding: 0;
 }
 
-/* start nav */
+         /* start nav */
 nav {
     max-width: 1100px;
     margin: 30px auto;
@@ -102,8 +102,8 @@ nav {
     font-family: Work Sans;
     font-size: 1.2rem;
     font-weight: 500;
-
 }
+/* End the nav section style */
 
 .banner-container {
     height: 500px;
@@ -154,6 +154,7 @@ nav {
     font-weight: 500;
 
 }
+/* complete banner section style */
 
 .video-section {
     text-align: center;
@@ -185,6 +186,9 @@ nav {
 
 }
 
+/* End Video and img section */
+
+
 .online-game-container {
     max-width: 1100px;
     margin: 100px auto;
@@ -213,6 +217,7 @@ nav {
 .online-game-info {
     width: 350px;
 }
+/* online game container End */
 
 .click-section {
     max-width: 1100px;
@@ -260,6 +265,7 @@ nav {
     margin: 0px auto;
     padding;
 }
+/* Complete the main part */
 
 footer {
     background-color: #0B0223;
@@ -339,10 +345,11 @@ footer {
     padding-bottom: 70px;
 }
 
-
+/* Complete Desktop view  */
 
 
 /* Media query for mobile large device */
+
 @media screen and (max-width: 576px) {
 
     .title {
@@ -521,6 +528,10 @@ footer {
         padding: 50px 0 100px 0;
     }
 }
+
+
+/* End */
+
 
 
 /* media query for tablet or medium device */
