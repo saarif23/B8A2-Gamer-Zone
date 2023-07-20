@@ -10,7 +10,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .primary-btn {
@@ -34,7 +33,6 @@
     font-weight: 600;
     color: #FFF;
     margin-left: 20px;
-
 }
 
 .title {
@@ -43,8 +41,6 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin: 0;
-
-
 }
 
 .description {
@@ -55,7 +51,8 @@
     padding: 0;
 }
 
-         /* start nav */
+
+/* start nav */
 nav {
     max-width: 1100px;
     margin: 30px auto;
@@ -64,21 +61,24 @@ nav {
     align-items: center;
 }
 
+
 .nav-title {
     display: flex;
     align-items: center;
     gap: 20px;
-
 }
+
 
 .nav-title img {
     width: 100px;
     cursor: pointer;
 }
 
+
 .nav-icon img {
     width: 30px;
 }
+
 
 .nav-icon {
     display: flex;
@@ -86,8 +86,9 @@ nav {
     gap: 20px;
     border-radius: 10px;
     padding: 2px 25px;
-    background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.037);
 }
+
 
 .nav-items {
     display: flex;
@@ -96,6 +97,7 @@ nav {
     cursor: pointer;
 }
 
+
 .nav-items li {
     list-style: none;
     color: #3C354F;
@@ -103,6 +105,8 @@ nav {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+
 /* End the nav section style */
 
 .banner-container {
@@ -124,10 +128,11 @@ nav {
     height: 500px;
 }
 
+
 #bnr-img {
     width: 500px;
-
 }
+
 
 .banner-title {
     color: #0B0223;
@@ -135,25 +140,24 @@ nav {
     font-size: 2.5rem;
     font-weight: 600;
     margin: 0px;
-
 }
 
-.banner-gradient {
 
+.banner-gradient {
     font-family: Work Sans;
     font-size: 4.5rem;
     font-weight: 800;
     margin: 0px;
-
 }
+
 
 .banner-description {
     color: #534C64;
     font-family: Work Sans;
     font-size: 1rem;
     font-weight: 500;
-
 }
+
 /* complete banner section style */
 
 .video-section {
@@ -167,16 +171,16 @@ nav {
 .video-container {
     display: flex;
     justify-content: center;
-    gap: 20px; 
+    gap: 20px;
 }
 
 
-.img-container{
+.img-container {
     position: relative;
     display: inline-block;
 }
 
-.play-btn{
+.play-btn {
     border: 2px solid red;
     position: absolute;
     top: 50%;
@@ -193,10 +197,18 @@ nav {
     font-size: 24px;
     cursor: pointer;
 }
+
 .play-btn span:hover {
     color: blue;
-  }
-.play-btn span{
+}
+
+.img-container img:hover {
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.play-btn span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -220,8 +232,8 @@ nav {
 
 .funny-img p {
     text-align: left;
-
 }
+
 
 /* End Video and img section */
 
@@ -236,14 +248,14 @@ nav {
     padding-bottom: 100px;
 }
 
+
 .img-icon {}
 
 .online-game-first-img {
     width: 520px;
     position: relative;
-
-
 }
+
 
 .online-game-second-img {
     position: absolute;
@@ -251,15 +263,20 @@ nav {
     left: 350px;
 }
 
+
 .online-game-info {
     width: 350px;
 }
+
+
 /* online game container End */
+
+
 
 .click-section {
     max-width: 1100px;
-
 }
+
 
 .click-container {
     display: flex;
@@ -274,8 +291,6 @@ nav {
     cursor: pointer;
     border-radius: 50px;
     background-color: lightgray;
-
-
 }
 
 .game-name {
@@ -285,14 +300,18 @@ nav {
     font-weight: 600;
     margin-bottom: 20px;
 }
-.game-name:hover{
+
+.game-name:hover {
     color: blue;
 }
+
+
 .game-icon {
     width: 50px;
     height: 50px;
     /* border-radius: 50px; */
 }
+
 
 .click-section {
     display: flex;
@@ -302,6 +321,8 @@ nav {
     margin: 0px auto;
     padding;
 }
+
+
 /* Complete the main part */
 
 footer {
@@ -309,9 +330,12 @@ footer {
     margin-top: 100px;
 }
 
+
 .white-color {
     color: white;
 }
+
+
 
 .footer-title {
     display: flex;
@@ -321,10 +345,13 @@ footer {
     padding-top: 50px;
 }
 
+
 .footer-title img {
     width: 80px;
     height: 40px;
 }
+
+
 
 .our-facilities {
     color: white;
@@ -337,9 +364,14 @@ footer {
     padding: 10px 0;
     cursor: pointer;
 }
-.our-facilities p:hover{
+
+
+
+.our-facilities p:hover {
     color: blue;
 }
+
+
 
 .social-media-icon {
     display: flex;
@@ -348,9 +380,12 @@ footer {
     padding: 10px 0 20px 0;
 }
 
+
 .social-media-icon img:hover {
     background-color: blue;
 }
+
+
 
 .social-media-icon img {
     width: 40px;
@@ -358,6 +393,7 @@ footer {
     background-color: #0B0223;
     cursor: pointer;
 }
+
 
 .website-features {
     display: flex;
@@ -370,9 +406,11 @@ footer {
     cursor: pointer;
 }
 
-.website-features p:hover{
+
+.website-features p:hover {
     color: blue;
 }
+
 .copyright-symbol {
     color: rgba(255, 255, 255, 0.60);
     font-family: Work Sans;
@@ -396,9 +434,8 @@ footer {
         font-weight: 600;
         margin: 20px;
         padding: 20px;
-
-
     }
+
 
     .description {
         color: #534C64;
@@ -408,15 +445,30 @@ footer {
         padding: 0;
     }
 
+
+    .nav-title {
+        gap: 0px;
+    }
+
+
     .nav-items {
         flex-direction: column;
     }
+
+
 
     nav {
         width: 100%;
         margin: 10px;
         flex-direction: column;
     }
+
+
+
+    .nav-icon {
+        margin-bottom: 50px;
+    }
+
 
     .banner-container {
         height: 500px;
@@ -429,6 +481,8 @@ footer {
         box-shadow: none;
     }
 
+
+
     .banner-bg {
         position: absolute;
         top: 0;
@@ -437,10 +491,12 @@ footer {
         margin-left: 20px;
     }
 
+
+
     #bnr-img {
         width: 300px;
-
     }
+
 
     .banner-title {
         color: #0B0223;
@@ -448,89 +504,93 @@ footer {
         font-size: 2rem;
         font-weight: 600;
         margin-top: 35px;
-
     }
+
+
 
     #banner-gradient {
         font-family: Work Sans;
         font-size: 3.5rem;
         font-weight: 800;
         margin: 0px;
-
     }
+
 
     .banner-description {
         color: #534C64;
         font-family: Work Sans;
         font-size: 1rem;
         font-weight: 500;
-
     }
+
+
 
     .video-section {
         margin-top: 250px;
     }
 
+
     .video-container {
         flex-direction: column;
         align-items: center;
         gap: 30px;
-
     }
+
 
     .title {
         font-size: 2rem;
-
     }
+
 
     .online-game-container {
         max-width: 500px;
         flex-direction: column-reverse;
         gap: 50px;
-
-
     }
+
 
     .online-game-first-img {
         width: 250px;
         padding-right: 70px;
-
-
-
     }
+
+
 
     .online-game-second-img {
         width: 150px;
         bottom: 35px;
         left: 220px;
-
     }
+
+
 
     .online-game-img {
         margin: ;
-
     }
+
 
     .online-game-info {
         width: 370px;
         text-align: center;
-
     }
+
 
     .click-section {
         gap: 0;
-
     }
+
 
     .game-name {
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 600;
     }
+
 
     .game-icon {
         width: 30px;
         height: 30px;
     }
+
 
 
     footer div {
@@ -540,8 +600,8 @@ footer {
 
     .footer-title {
         gap: 0px;
-
     }
+
 
     .our-facilities {
         flex-wrap: wrap;
@@ -556,7 +616,6 @@ footer {
     .website-features {
         flex-wrap: wrap;
         gap: 15px;
-
     }
 
     .copyright-symbol {
@@ -578,6 +637,7 @@ footer {
         gap: 50px;
     }
 
+
     .banner-container {
         height: 500px;
         position: relative;
@@ -597,32 +657,35 @@ footer {
         width: 80%;
     }
 
+
     #bnr-img {
         width: 500px;
-
     }
 
     .video-section {
         margin-top: 330px;
     }
 
+
     .video-container {
         flex-direction: column;
         align-items: center;
         gap: 50px;
-
     }
+
 
     .online-game-container {
         flex-direction: column-reverse;
         gap: 10px;
     }
 
+
     .online-game-first-img {
         width: 450px;
         margin: 0;
         padding: 0;
     }
+
 
     .online-game-second-img {
         width: 200px;
@@ -632,10 +695,12 @@ footer {
         bottom: 20px;
     }
 
+
     .online-game-info {
         width: 500px;
         text-align: center;
     }
+
 
 
     footer div {
@@ -643,21 +708,25 @@ footer {
         margin: 0 auto;
     }
 
+
     .our-facilities {
         flex-wrap: wrap;
         gap: 15px;
     }
+
 
     .social-media-icon {
         flex-wrap: wrap;
         gap: 50px;
     }
 
+
     .website-features {
         flex-wrap: wrap;
         gap: 15px;
-
     }
+
+
 
     .copyright-symbol {
         width: 350px;
